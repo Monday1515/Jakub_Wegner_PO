@@ -36,7 +36,7 @@ public:
     }
 };
 
-int main() {
+int main() { // Prosze tworzyc obiekty takze  w pamieci dynamicznej
     Tablica tab1;
     tab1.setElement(0, 10);
     tab1.display();
