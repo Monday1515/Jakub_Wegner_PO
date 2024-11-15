@@ -16,7 +16,7 @@ public:
         : marka("Nieznana"), model("Nieznany"), rokProdukcji(0) {}
 
     ~Samochod() {
-        cout << "Destruktor wywołany dla: " << marka << " " << model << endl;
+        cout << "Destruktor wywołany dla: " << marka << " " << model << endl;// informacja o likwidacji obiektu?
     }
 
     void displayInfo() const {
